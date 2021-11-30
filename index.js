@@ -12,15 +12,11 @@ app.get('/movies', (req, res) => {
         {
                 title: 'El Señor de lo Anillos',
                 content: 'contenido'
-            },
-            {
-                title: '101 Dalmatas',
-                content: 'contenido'
             }
         )
 });
 
-app.use(express.urlencoded({
+/*app.use(express.urlencoded({
     extended: true
 }))
 
@@ -28,4 +24,4 @@ app.post('receive', (req, res) => {
    let body = req.body;
    console.log(body);
    res.send(req.body)
-});
+});*/
